@@ -1,0 +1,59 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+:root {
+	/* Colors */
+	--blackpure: #000;
+	--black: #171718;
+	--black-border: #26292d;
+	--white: #fff;
+	--purple: #8c52ff;
+	--rgba: rgba(0, 0, 0, 0.4);
+
+	/* Home  */
+	--main-color: var(--purple);
+	--white-color: var(--white);
+	--text-color: var(--black);
+	--bg-color: var(--white);
+	--navbar-color: var(--black);
+	--shadow-color: var(--rgba);
+
+	/* Nav */
+	/* --nav-bg: var(--black);
+	--nav-border: var(--black-border);
+	--nav-text: var(--white); */
+
+	/* Header */
+	/* --header-bg: var(--black);
+	--header-text: var(--white); */
+
+}
+
+/* General  */
+html {
+	font-size: 62.5%;
+	/* overflow: hidden; */
+}
+
+body {
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+
+section {
+	min-height: 100vh;
+	padding: 10rem 7% 2rem;
+}
+
+span {
+	color: var(--main-color);
+}
+
+.heading {
+	font-size: 4.5rem;
+	text-align: center;
+	line-height: 1.2;
+}
+
+
