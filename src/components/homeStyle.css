@@ -1,35 +1,37 @@
 @import './../styles/main.css';
-
 /* Home  */
 
 .home {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	/* display: inline-block; */
 	align-items: center;
-    width: 100%;
+    /* width: 100%; */
+	gap: 4rem;
     background-color: var(--white-color);
 }
 
 .home .home-content {
-	position: relative;
+	/* position: relative;
     background:var(--white-color);
-    margin:2px;
-    float:left;
-    width: calc(50% - 4px);
-    padding-bottom: calc(50% - 4px)
-
+    margin:2px; */
+    /* float:left; */
+    /* width: calc(50% - 4px);
+    padding-bottom: calc(50% - 4px) */
 }
 
 .home .home-img {
-	position: relative;
+	/* position: relative;
     background:var(--white-color);
     margin:2px;
-    float:left;
+    float:left; 
     width: calc(50% - 4px);
-    padding-bottom: calc(50% - 4px)
+    padding-bottom: calc(50% - 4px)  */
 }
 
-.home-img img {
-    width: calc(100% - 4px);
+.home-img img {	
+	width: 38vw;
+    /* width: calc(100% - 4px); */
 }
 
 .home-content h1 {
@@ -37,6 +39,7 @@
 	font-weight: 700;
 	margin-bottom: .5rem;
 }
+
 .home-content h2 {
 	font-size: 2.3rem;
 	font-weight: 700;
