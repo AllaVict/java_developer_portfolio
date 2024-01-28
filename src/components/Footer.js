@@ -15,8 +15,8 @@ function Footer() {
                 </div>
 
                 <div className="footer--social">
-                    <a href="https://www.linkedin.com/in/alla-borodina/" target="_blank"rel="noreferrer"> <i class='bx bxl-linkedin'></i> </a>
-                    <a href="https://github.com/AllaVict" target="_blank" rel="noreferrer" > <i class='bx bxl-github'></i> </a>
+                    <a href="https://www.linkedin.com/in/alla-borodina/" target="_blank" rel="noreferrer"> <i class='bx bxl-linkedin'></i> </a>
+                    <a href="https://github.com/AllaVict" target="_blank"rel="noreferrer" > <i class='bx bxl-github'></i> </a>
                     <a href="mailto:alla.borodina888@gmail.com"> <i class='bx bx-envelope'></i> </a>
                 </div>
 
@@ -24,6 +24,7 @@ function Footer() {
                     <p>&#169;2024 Made with &#10084;&#65039; by Alla Borodina</p>
                 </div>
             </div>
+    
         </footer>
     );
 }

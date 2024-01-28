@@ -1,0 +1,55 @@
+@import './../styles/main.css';
+
+.experience--title {
+    margin-bottom: 2%;
+    /* border: solid black; */
+}
+
+.experience--card {
+    border-radius: 2.5rem 2.5rem;
+    box-shadow: 0 0 3rem 0 var(--shadow-color);
+    padding: 1% 1%;
+    margin-bottom: 2%;
+    border: solid var(--main-color);
+}
+
+.experience--card h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1%;
+    /* border: solid red; */
+}
+
+.experience--card p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1%;
+    /* border: solid red; */
+}
+
+.experience--duration {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background: rgba(134, 12, 255, 0.7);
+
+    border-radius: 2.5rem;
+    padding: .6rem .8rem;
+    margin-bottom: 1.3rem;
+}
+
+.experience--duties ul {
+    padding: 0;
+    margin: 0;
+}
+
+ .experience--duties li {
+    margin: 0 1rem;
+}
+
+ .experience--duties p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
