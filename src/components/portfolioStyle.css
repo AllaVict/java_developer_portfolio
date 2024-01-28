@@ -1,0 +1,84 @@
+@import './../styles/main.css';
+
+.portfolio--title {
+    margin-bottom: 2%;
+}
+
+.portfolio--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42.6px;
+    width: 100%;
+    /* border: solid blue; */
+}
+
+.portfolio--card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5rem;
+    flex: 1 0 0;
+    background-color: var(--bg-color);
+    box-shadow: 0 0 3rem 0 var(--shadow-color);
+    cursor: pointer;
+    border-top-right-radius: 3rem 3rem;
+    border-top-left-radius: 3rem 3rem;
+    /* border: solid red; */
+}
+
+.portfolio--img {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0 0 3rem 0 var(--shadow-color);
+    border-radius: 2rem;
+    /* border: solid red; */
+}
+
+.portfolio--img img {
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    transition: .5s ease;
+    /* border: solid yellow; */
+}
+
+.portfolio--img:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio--card--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.9rem;
+    padding: .5rem;
+    /* border: solid blue; */
+}
+
+.portfolio--card--content h4 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.portfolio--card--content p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.portfolio--link {
+    text-decoration: none;
+    display: flex;
+    gap: 0.9rem;
+    padding-bottom: 10.6px;
+    font-weight: 600;
+}
+
+.portfolio--card--content .btn {
+    font-size: 1.3rem;
+}
