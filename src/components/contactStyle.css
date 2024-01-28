@@ -1,0 +1,65 @@
+/* Contact*/
+
+.contact-container .contact-title {
+	color: var(--text-color);
+	text-align: center;
+	font-size: 2.3rem;
+	font-weight: 700;
+	margin: 5rem;
+}
+
+.contact-container .contact-sub-title {
+	color: var(--text-color);
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin: 5rem;
+} 
+
+.contact-container .contact-info-email {
+	font: 0 0 25%;
+	text-align: center;
+	margin: 5rem;
+}
+
+.contact-container .contact-info-email .social-media  {
+	display: inline-block;
+}
+
+.contact-container  .social-media a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	border: .2rem solid var(--main-color);
+	border-radius: 50%;
+	box-shadow: 0 .2rem .5rem 0 var(--shadow-color);
+	font-size: 5rem;
+	color: var(--main-color);
+	padding: 1rem 1rem 1rem 1rem;
+	margin: 2.5rem 1.5rem 3rem 0;
+	transition: .5s ease;
+}
+
+.contact-container  .social-media a:hover {
+	background: var(--main-color);
+	color: var(--btn-text-color);
+	transform: translateY(-.25rem);
+}
+
+.contact-container .contact-info-email h4 {
+	font-size: 2.3rem;
+	font-weight: 700;
+	color: var(--text-color);
+	margin: 1rem 0 .5rem;
+}
+
+.contact-container .contact-info-email p {
+	line-height: 3.5rem;
+
+	font-size: 1.8rem;
+	font-weight: 500;
+	color: var(--text-color);
+
+	margin: 1rem 0 .5rem;
+}

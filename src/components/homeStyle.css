@@ -1,37 +1,21 @@
 @import './../styles/main.css';
-/* Home  */
 
+/* Home  */
 .home {
 	display: flex;
 	justify-content: center;
-	/* display: inline-block; */
 	align-items: center;
-    /* width: 100%; */
 	gap: 4rem;
-    background-color: var(--white-color);
+	color: var(--text-color);
+	background-color: var(--bg-color);
 }
 
-.home .home-content {
-	/* position: relative;
-    background:var(--white-color);
-    margin:2px; */
-    /* float:left; */
-    /* width: calc(50% - 4px);
-    padding-bottom: calc(50% - 4px) */
+.home .home-span {
+	color: var(--text-color);
 }
 
-.home .home-img {
-	/* position: relative;
-    background:var(--white-color);
-    margin:2px;
-    float:left; 
-    width: calc(50% - 4px);
-    padding-bottom: calc(50% - 4px)  */
-}
-
-.home-img img {	
-	width: 38vw;
-    /* width: calc(100% - 4px); */
+.home-img img {
+	width: 33vw;
 }
 
 .home-content h1 {
@@ -47,7 +31,7 @@
 }
 
 .home-content p {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	margin-bottom: .5rem;
 }
 
@@ -60,7 +44,7 @@
 	background: transparent;
 	border: .2rem solid var(--main-color);
 	border-radius: 50%;
-	box-shadow: 0 .2rem .5rem var(--shadow-color);
+	box-shadow: 0 .2rem .5rem 0 var(--shadow-color);
 	font-size: 2rem;
 	color: var(--main-color);
 	margin: 2.5rem 1.5rem 3rem 0;
@@ -69,7 +53,8 @@
 
 .home-content .social-media a:hover {
 	background: var(--main-color);
-	color: var(--white-color);
+	color: var(--btn-text-color);
+	transform: translateY(-.25rem);
 }
 
 .btn {
@@ -77,9 +62,9 @@
 	padding: 1.2rem 2.8rem;
 	background: var(--main-color);
 	border-radius: 2.0rem;
-	box-shadow: 0 .2rem .5rem var(--shadow-color);
+	box-shadow: 0 .2rem .5rem 0 var(--shadow-color);
 	font-size: 1.6rem;
-	color: var(--white-color);
+	color: var(--btn-text-color);
 	letter-spacing: .1rem;
 	font-weight: 600;
 	border: .2rem solid transparent;
@@ -91,4 +76,5 @@
 	background: transparent;
 	color: var(--main-color);
 	border-color: var(--main-color);
+	transform: translateY(-.25rem);
 }
