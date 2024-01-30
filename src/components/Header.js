@@ -1,4 +1,5 @@
 import "./headerStyle.css";
+import ToggleDarkMode from "./ToggleDarkMode";
 
 function Header(){
     return (
@@ -13,7 +14,8 @@ function Header(){
 				<a href="#experience"> Experience </a>
 				<a href="#contact"> Contact<span>Me</span> </a>
 			</nav>
-			<div className="bx bx-menu" id="bx bx-menu"> </div>
+			<ToggleDarkMode/>
+			<div id="menu-icon">  <i className='bx bx-menu'></i> </div>
 
 		</header>
     );
