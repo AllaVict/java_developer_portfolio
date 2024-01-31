@@ -1,77 +1,191 @@
 @import './../styles/main.css';
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-/* Header   */
 .header {
-	position: fixed;
-	display: flex;
-	align-items: center;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 2rem 7%;
-	z-index: 100;
-	background: var(--nav-bg-color);
-	box-shadow: 0 .2rem 5rem 0 var(--shadow-color);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 7%;
+    z-index: 100;
+    background: var(--nav-bg-color);
+    box-shadow: 0 .2rem 4rem 0 var(--shadow-color);
+}
+
+.nav-wrapper {
+    width: 100%;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+
+    background: var(--nav-bg-color);
+    padding: .2rem 0;
+}
+
+.nav-content {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
 }
 
 .logo {
-	font-size: 2.5rem;
-	color: var(--main-color);
-	font-weight: 600;
-	cursor: default;
-	margin-right: auto;
+    font-size: 3.2rem;
+    color: var(--main-color);
+    font-weight: 700;
+    font-family: 'Kaushan Script', cursive;
+    cursor: default;
+    margin-right: auto;
+
+    width: 12rem;
+    height: auto;
 }
 
-.navbar a {
-	position: relative;
-	font-size: 1.8rem;
-	color: var(--nav-text-color);
-	font-weight: 500;
-	margin-right: 3.5rem;
+.nav-content ul {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    list-style: none;
 }
 
-.navbar a:hover{
-	color: var(--main-color);
+.nav-content li {
+    margin: 0 1.5rem;
+}
+
+.menu-item {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--nav-text-color);
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    color: var(--main-color);
+}
+
+.menu-btn {
+    width: 3.7rem;
+    height: 3.7rem;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: .9rem;
+    color: var(--nav-text-color);
+    background: linear-gradient(90deg, var(--main-color) -.13%, var(--main-color) 99.87%);
+    line-height: 0;
+    cursor: pointer;
+    transition: all .4s ease;
+    display: none;
+}
+
+.menu-btn:hover {
+    color: var(--main-color);
+    background: var(--nav-bg-color);
+    border: 1px solid var(--main-color);
 }
 
 #darkMode-icon {
-	font-size: 2.4rem;
-	color: var(--nav-text-color);
-	cursor: pointer;
-}
-#darkMode-icon:hover{
-	color: var(--main-color);
+    font-size: 3.0rem;
+    color: var(--nav-text-color);
+    cursor: pointer;
+    margin-right: 2rem ;
 }
 
-/*  menu  */
-#menu-icon {
-	font-size: 3.6rem;
-	color: var(--nav-text-color);
-	display: none;
+#darkMode-icon:hover {
+    color: var(--main-color);
 }
 
-
-/*  header.sticky  */
-.header.sticky {
+.header.sticky,
+.header.sticky .nav-wrapper {
 	background: var(--main-color);
 }
+
 .header.sticky .logo {
 	color: var(--black);
 }
 
-.header.sticky .navbar a span {
+.header.sticky .nav-content a span {
 	color: var(--white-color);
 }
-.header.sticky .navbar a:hover{
+
+.header.sticky .nav-content a:hover{
 	color: var(--black);
 }
 
-.header.sticky .navbar a::before {
+.header.sticky .nav-content a::before {
 	background: var(--main-color);
 	opacity: .7;
+}
+
+.header.sticky .menu-btn  {
+    color: var(--main-color);
+    background: var(--nav-bg-color);
+}
+.header.sticky .menu-btn:hover {
+    color: var(--main-color);
+    background: var(--nav-bg-color);
 }
 
 .header.sticky #darkMode-icon {
 	color: var(--white-color);
 	opacity: .9;
+}
+
+.header.sticky #darkMode-icon:hover{
+	color: var(--black);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1325px) {
+    .nav-wrapper {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 55%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-content ul {
+        display: none;
+    }
+
+    #darkMode-icon {
+        font-size: 3.3rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+	html{
+		font-size: 50%;
+	}    
+    .logo {
+        width: 10rem;
+        height: auto;
+    }
+    #darkMode-icon{
+		right: 6rem;
+	}
+}
+
+@media screen and (max-width: 365px) {
+	html {
+		font-size: 45%;
+	}
 }
