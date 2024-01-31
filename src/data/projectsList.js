@@ -13,7 +13,7 @@ const projects = [
 		{
 		title: 'My Porfolio Site',
 		img: project02,
-		technology: ' React.js · HTML · CSS · JavaScript · Visual Studio Code · GitHub '  ,
+		technology: ' React.js  · HTML ·   CSS   ·   JavaScript   ·   Visual Studio Code   ·  GitHub '  ,
 		gitHubLink: 'https://github.com/AllaVict/quick_click_market_place',
 		description: "•	The project presents information about my portfolio, my Java Developer experience."
 
@@ -26,7 +26,6 @@ const projects = [
 		description: "•	The project is an online classifieds platform that brings people together to buy, sell or exchange goods and services."
 
 	},
-
 ];
 
 export { projects }

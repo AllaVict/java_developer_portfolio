@@ -96,7 +96,7 @@
 	.home {
 		justify-content: center;
 		text-align: center;
-		padding: 0 3% 23rem;
+		/* padding: 0 3% 23rem; */
 	}
 	.home-img img {
 		display: none;
@@ -118,24 +118,22 @@
 	html{
 		font-size: 50%;
 	}
-
-	.home{
-		padding: 0 3% 30rem;
-	}
-	.home-content h1 {
+ 	.home-content h1 {
 		font-size: 3.2rem;
 	}
 	.home-content h2 {
-		font-size: 2.5rem;
-	}
+		font-size: 2rem;
+	} 
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 375px) {
 	html{
 		font-size: 45%;
 	}
-
-	.home{
-		padding: 0 3% 30rem;
+	.home-content h1 {
+		font-size: 2.8rem;
 	}
+	.home-content h2 {
+		font-size: 2.2rem;
+	} 
 }
