@@ -78,3 +78,64 @@
 	border-color: var(--main-color);
 	transform: translateY(-.25rem);
 }
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 55%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.home .home-content {
+		max-width: 50rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.home {
+		justify-content: center;
+		text-align: center;
+		padding: 0 3% 23rem;
+	}
+	.home-img img {
+		display: none;
+	}
+	
+	.home-content h1 {
+		font-size: 4rem;
+	}
+	.home-content h2 {
+		font-size: 2.8rem;
+	}
+
+	.home-content .social-media a {
+		margin: 2.5rem .75rem 3rem;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	html{
+		font-size: 50%;
+	}
+
+	.home{
+		padding: 0 3% 30rem;
+	}
+	.home-content h1 {
+		font-size: 3.2rem;
+	}
+	.home-content h2 {
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 365px) {
+	html{
+		font-size: 45%;
+	}
+
+	.home{
+		padding: 0 3% 30rem;
+	}
+}

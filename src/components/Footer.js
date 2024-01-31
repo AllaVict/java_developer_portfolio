@@ -1,4 +1,5 @@
 import "./footerStyle.css";
+import ScrollGoTop from "./ScrollGoTop";
 
 function Footer() {
     return (
@@ -24,7 +25,7 @@ function Footer() {
                     <p>&#169;2024 Made with &#10084;&#65039; by Alla Borodina</p>
                 </div>
             </div>
-    
+            <ScrollGoTop/>;
         </footer>
     );
 }
