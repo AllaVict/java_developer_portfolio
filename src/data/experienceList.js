@@ -1,12 +1,12 @@
 const experience = [
     {
-        title: "Java Developer, NGO Treasure House of Projects, Ukraine (in English)",
-        period: "11/2023 - Current",
+        title: "Fullstack Developer, NGO Treasure House of Projects, Ukraine (in English)",
+        period: "9/2023 - Current",
         technologies: "Java · Spring Framework · Hebirnate · SQL · GitHub · JUnit · Gradle · Swagger · Thymeleaf · Flyway · SLF4J · Docker Compose · MinIO ·  Kafka · CI/CD ·  Scrum  · Kanban • Microservices",
         duties: [
             "Developing with the developers’ team the web microservices application, which is a platform to help non-profit organizations find volunteers and executors to solve their everyday tasks.",
             "It includes Java coding, Sql query, debugging, testing and documentation (in English), updating  existing and implementing new features to enhance using MinIO, Kafka and other tools, giving assistance to team members as required.",
-            "Working with Github, creating a pull request to review and merge code.",
+            "Working with Github, creating a pull request to review and merge code and resolving merge conflicts.",
             "Attending the Daily Standup Scrum Meetings (in English).",
         ]
     },
