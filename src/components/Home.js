@@ -1,7 +1,7 @@
 import "./homeStyle.css";
 import photo from "./../img/photo.png";
 import Typewriter from "./Typewriter";
-import resume from "./../docs/Java_Developer_Alla_Borodina_resume_certificate.pdf";
+import resume from "./../docs/Fullstack_developer_resume_Alla_Borodina.pdf";
 
 function Home(){
     return (
